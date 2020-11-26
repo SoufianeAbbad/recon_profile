@@ -77,9 +77,9 @@ curl -s https://crt.sh/?q\=%.$1\&output\=json | jq -r '.[].name_value' | sed 's/
 }
 
 profile(){
-	nano ~/.bash_profile
+	nano ~/.profile
 }
 
 sprofile(){
-	source ~/.bash_profile
+	source ~/.profile
 }
